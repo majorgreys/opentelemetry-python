@@ -1,8 +1,8 @@
 OpenTracing Shim Example
 ==========================
 
-This example shows how to use the `opentelemetry-ext-opentracing-shim
-package <https://github.com/open-telemetry/opentelemetry-python/tree/master/ext/opentelemetry-ext-opentracing-shim>`_
+This example shows how to use the :doc:`opentelemetry-ext-opentracing-shim
+package <../../ext/opentracing_shim/opentracing_shim>`
 to interact with libraries instrumented with
 `opentracing-python <https://github.com/opentracing/opentracing-python>`_.
 
@@ -90,8 +90,7 @@ from both tracing systems appear in the exported trace.
 Useful links
 ------------
 
-- For more information on OpenTelemetry, visit OpenTelemetry_.
-- For more information on tracing in Python, visit Jaeger_.
+- OpenTelemetry_
+- :doc:`../../ext/opentracing_shim/opentracing_shim`
 
-.. _Jaeger: https://www.jaegertracing.io/
 .. _OpenTelemetry: https://github.com/open-telemetry/opentelemetry-python/
